@@ -6,7 +6,7 @@ const Loading = () => {
   return (
     <motion.div
       id="loading"
-      className={`w-[100vw] h-[100vh] flex "${styles.flexCenter}`}
+      className={`w-[100vw] h-[100vh] text-white flex "${styles.flexCenter}`}
       initial={{ scale: 1.0, opacity: 0.25 }}
       animate={{ scale: 2.0, opacity: 0.8 }}
       exit={{ opacity: 0, transition: { duration: 0.3, ease: "easeOut" } }}
@@ -15,7 +15,7 @@ const Loading = () => {
         ease: [0.25, 0.1, 0.25, 1.0],
       }}
     >
-      <img src={parthmittal} alt="Parth Mittal" className="w-[80px] h-[80px]" />
+      Juan Ramos
     </motion.div>
   );
 };

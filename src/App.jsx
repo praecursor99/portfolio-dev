@@ -58,18 +58,18 @@ const App = () => {
                 <Education />
               </div>
             </div>
-            <Achievements />
+            {/* <Achievements /> */}
             <div
               className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
             >
               <div className={`${styles.boxWidth}`}>
                 <Projects />
-                <BlogPosts enabled={false} />
-                <OpenSource />
-                <ExtraCurricular />
+                {/* <BlogPosts enabled={false} /> */}
+                {/* <OpenSource />
+                <ExtraCurricular /> */}
               </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
           </motion.section>
         )}
       </AnimatePresence>

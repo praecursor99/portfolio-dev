@@ -31,13 +31,7 @@ const Navbar = () => {
       className="nav-styles sm:px-16 px-6"
     >
       {/* Logo */}
-      <a href="#home">
-        <img
-          src={parthmittal}
-          alt="Parth Mittal"
-          className="w-[80px] h-[80px]"
-        />
-      </a>
+
 
       {/* List of links */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1 p-4">

@@ -5,7 +5,7 @@ import { BsLink45Deg } from "react-icons/bs";
 
 const Project = (props) => {
   return (
-    <div className="project-card flex-shrink-0 px-8 py-6 transition-colors duration-300 transform border rounded-xl hover:border-transparent group dark:border-gray-700 dark:hover:border-transparent feature-card w-[320px] sm:w-[400px] md:w-[500px] mr-6 sm:mr-8 md:mr-10">
+    <div className="project-card flex-shrink-0 px-8 py-6 transition-colors duration-300 transform border rounded-xl hover:border-transparent group dark:border-gray-700 dark:hover:border-transparent feature-card sm:w-[45%] md:w-[50%-1px] mr-6 sm:mr-8 md:mr-10">
       <div className="flex flex-col items-start">
         <img
           className="flex-shrink-0 object-cover w-20 h-20 rounded-full ring-4 ring-gray-300"
@@ -41,7 +41,7 @@ const Project = (props) => {
         {props.content}
       </p>
 
-      <div className="flex mt-4 -mx-2">
+      {/* <div className="flex mt-4 -mx-2">
         {props.github ? (
           <a href={props.github} target="_blank">
             <AiFillGithub
@@ -62,7 +62,7 @@ const Project = (props) => {
         ) : (
           ""
         )}
-      </div>
+      </div> */}
     </div>
   );
 };
@@ -133,7 +133,7 @@ const Projects = () => {
           </div>
           <div className="flex justify-end mb-8">
             {/* Navigation buttons */}
-            <button
+            {/* <button
               onClick={handlePrev}
               disabled={isPrevDisabled}
               // p-2 bg-gray-700 rounded-full disabled:opacity-50 mx-2 hover:bg-gray-600 transition-colors
@@ -147,7 +147,7 @@ const Projects = () => {
               className="p-2 bg-gray-700 rounded-full disabled:opacity-50 mx-2 hover:bg-gray-600 transition-colors text-white"
             >
               &gt;
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
